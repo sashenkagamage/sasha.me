@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
-import {BrowserRouter as Router, Routes,Route}
+import {HashRouter as HashRouter, Routes,Route}
 from 'react-router-dom';
 import Home from './components/Home';
 import Project1 from './components/pages/project1';
@@ -11,7 +11,7 @@ import Project3 from './components/pages/project3';
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/project2" element={<Project2 />} />
         <Route path="/project3" element={<Project3 />} />
       </Routes>
-    </Router>
+    </HashRouter>
   </>
   );
 }
