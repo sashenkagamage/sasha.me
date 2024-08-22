@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sasha.me/static/css/main.46ce046c.css",
-    "main.js": "/sasha.me/static/js/main.e598f9f2.js",
+    "main.js": "/sasha.me/static/js/main.e2e702c0.js",
     "static/js/453.acca0757.chunk.js": "/sasha.me/static/js/453.acca0757.chunk.js",
     "static/media/image-6.png": "/sasha.me/static/media/image-6.8f11b5c85fd08da368a3.png",
     "index.html": "/sasha.me/index.html",
     "main.46ce046c.css.map": "/sasha.me/static/css/main.46ce046c.css.map",
-    "main.e598f9f2.js.map": "/sasha.me/static/js/main.e598f9f2.js.map",
+    "main.e2e702c0.js.map": "/sasha.me/static/js/main.e2e702c0.js.map",
     "453.acca0757.chunk.js.map": "/sasha.me/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46ce046c.css",
-    "static/js/main.e598f9f2.js"
+    "static/js/main.e2e702c0.js"
   ]
 }
