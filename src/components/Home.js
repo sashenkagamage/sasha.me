@@ -10,9 +10,6 @@ import { Link } from 'react-router-dom';
 function Home(){
     return(
         <>
-        <div id='main'>
-        {/* <HeroSection/> */}
-        </div>
         < div id='aboutme'>
         <div className='about-me_container'>
             <div className ='content'>
