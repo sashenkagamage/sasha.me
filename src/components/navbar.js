@@ -12,7 +12,7 @@ function Navbar(){
     <Headroom>
     <nav className='navbar'>
         <div className='navbar-container'>
-                    <a href ='/#main' className='navbar-logo' onClick={closeMobileMenu}>
+                    <a href ='/#aboutme' className='navbar-logo' onClick={closeMobileMenu}>
                         Sasha
                     </a>
             <div className='menu-icon' onClick={handleClick}>
