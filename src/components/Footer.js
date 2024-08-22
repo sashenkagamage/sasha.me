@@ -3,20 +3,7 @@ import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
-  const ButtonMailto = ({ mailto, icon }) => {
-    return (
-        <Link
-            to='#'
-            onClick={(e) => {
-                window.location.href = mailto;
-                e.preventDefault();
-            }}
-        >
-           {icon && <i className={`fa ${icon}`} aria-hidden="true" style={{color: 'white'}} />}
-           
-        </Link>
-    );
-};
+
   return (
     <div className='footer-container'>
      

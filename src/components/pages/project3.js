@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 import './project.css'
 function Project3(){
     return(
@@ -17,7 +17,7 @@ function Project3(){
                 </div>
                 </div>
                 
-                <img src='/image-5.png' className='wrapper'/>
+                <img src='/image-5.png' className='wrapper' alt=""/>
                 </div>
                 
                  

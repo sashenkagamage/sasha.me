@@ -1,11 +1,8 @@
 import React from 'react';
-import HeroSection from './HeroSection';
 import "../App.css"
 import Cards from './Cards';
 import './mainCon.css';
-import Navbar from './navbar';
 import Footer from './Footer'; 
-import { Link } from 'react-router-dom';
 
 function Home(){
     return(
@@ -22,12 +19,12 @@ function Home(){
                 </div>
                 <div className='about-me-text'>
                     <p>
-               Hi! I am Sashenka Gamage, a junior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank">The Hong Kong Polytechnic University</a>. I am currently working on 
+               Hi! I am Sashenka Gamage, a junior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>. I am currently working on 
                autonomous navigation for Unmanned Aerial Vehicles and ROS (Robot Operating Systems). My interests rely on Robotics, UAVs, and IoT systems.
                If you are a robotics geek feel free to hit me up!
                </p>
                <p>
-               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. My project "Wall-E from Ohm World" will be released 
+               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. My project "Wall-E from Ohm World" will be released 
                soon, where my goal is to provide educational materials related to electronics and robotics projects for students in developing countries. </p>
                 <p>I have a habit of trying out new methods, while improving myself and correcting my mistakes eagerly. 
                 With all my passions, my main intention is to share and use my knowledge and experiences for the betterment of humankind
@@ -35,7 +32,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='/image-5.png' className='wrapper'/>
+                <img src='/image-5.png' className='wrapper' alt=""/>
                 </div>
                 
                  
@@ -50,7 +47,7 @@ function Home(){
             <ul className='education-text'>
             <h1>Engineering Intern</h1>
                 <h7>Summer 2024</h7>
-                <h3> <a href="https://www.clp.com.hk/en/about-clp" target="_blank">CLP Power Hong Kong</a></h3>
+                <h3> <a href="https://www.clp.com.hk/en/about-clp" target="_blank" rel="noreferrer">CLP Power Hong Kong</a></h3>
                 <p>CLP is one of the largest investor-owned power businesses in Asia. I work in the Castle Peak Power station under the Electrical Control and Water Management Team. My focus is to study the reliability and life cycle issues of the digital protection relay of high-voltage switchboards. 
                 My scope includes:
                     <li className='education-text'>Conduct a design review of the 11kV station supply system and protection system.</li>
@@ -59,7 +56,7 @@ function Home(){
                 </ul> 
                 <ul className='education-text'><h1>Undergraduate Researcher</h1>
                 <h7>2023 - Present</h7>
-                <h3> <a href="https://www.polyu.edu.hk/gs/ug-research/uris/project-21-23/" target="_blank">Graduate School of PolyU</a></h3>
+                <h3> <a href="https://www.polyu.edu.hk/gs/ug-research/uris/project-21-23/" target="_blank" rel="noreferrer">Graduate School of PolyU</a></h3>
                 <p className='education-text'>I am working as an undergraduate researcher in the Graduate School of PolyU, as part of the Undergraduate Research and Innovation Scheme. My research scope is Human-Robot Collaboration, and I am analyzing how autonomous drones interact in a smart manufacturing field.  Currently, I am implementing autonomous navigation, stabilizing drone control, and natural language control</p>
                 </ul>
                 <ul className='education-text'>
@@ -87,12 +84,12 @@ function Home(){
                 <div>
                 <h1>Music</h1>
                 <div className="location">
-                    <p><a href="https://www.instagram.com/sasha.violin?igsh=ZG9wZmE4N3Nldnlq&utm_source=qr" target="_blank">🎻🎶 Violin Page </a></p>
+                    <p><a href="https://www.instagram.com/sasha.violin?igsh=ZG9wZmE4N3Nldnlq&utm_source=qr" target="_blank" rel="noreferrer">🎻🎶 Violin Page </a></p>
                 </div>
                 <div className='music-text'>
                <p className='music-text'>I started playing violin when I was twelve years old, under the guidance of renowned musician Mr. Diliup Gabadamudalige. </p>
-                <p>In 2016, I joined <a href="https://en.wikipedia.org/wiki/Symphony_Orchestra_of_Sri_Lanka" target="_blank">the Junior Symphony Orchestra of Sri Lanka</a> and played several concerts in collaboration with the Symphony Orchestra of Sri Lanka under Mrs. Dushyanthi Perera. I was also a violinist in my school, Visakha Vidyalaya orchestra, from 2015 to 2020. Currently, I am learning music under famous violinist and musician Mr. Ananda Dabare. </p>
-               <p className='music-text'>In 2022, I joined PolyU Orchestra, conducted by <a href="http://www.leungkinfung.com/bio.php" target="_blank">Mr. Kin Fung Leung</a>, a world-class musician awarded outstanding recognition around the globe. So far, I have played in three major concerts, including Beethoven's Symphony No. 9 and the "I Love HK" concert. I am looking forward to playing with renowned soloists and musicians at PolyU Orchestra. </p>
+                <p>In 2016, I joined <a href="https://en.wikipedia.org/wiki/Symphony_Orchestra_of_Sri_Lanka" target="_blank" rel="noreferrer">the Junior Symphony Orchestra of Sri Lanka</a> and played several concerts in collaboration with the Symphony Orchestra of Sri Lanka under Mrs. Dushyanthi Perera. I was also a violinist in my school, Visakha Vidyalaya orchestra, from 2015 to 2020. Currently, I am learning music under famous violinist and musician Mr. Ananda Dabare. </p>
+               <p className='music-text'>In 2022, I joined PolyU Orchestra, conducted by <a href="http://www.leungkinfung.com/bio.php" target="_blank" rel="noreferrer">Mr. Kin Fung Leung</a>, a world-class musician awarded outstanding recognition around the globe. So far, I have played in three major concerts, including Beethoven's Symphony No. 9 and the "I Love HK" concert. I am looking forward to playing with renowned soloists and musicians at PolyU Orchestra. </p>
                 <p>My favourite orchestra repertoire includes 
                 Beethoven Symphony No 9,
                 Mozart Requiem,
@@ -101,7 +98,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='/image-7.png' className='wrapper'/>
+                <img src='/image-7.png' className='wrapper' alt=""/>
                 </div>
                 
                  

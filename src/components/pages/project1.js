@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './project.css'
 
 import Footer from '../Footer'; 
@@ -19,14 +18,14 @@ function Project1(){
                 </div>
                 </div>
                 
-                <img src='/image-8.png' className='wrapper'/>
+                <img src='/image-8.png' className='wrapper' alt=""/>
                 </div>
         </div>
         </div>
         <div className='container'>
               <div className='content2'>
               <div className='project'>
-                <img src='/image-8.png' className='wrapper'/>
+                <img src='/image-8.png' className='wrapper' alt=""/>
                 <div>
                 <h1>Skills</h1>
                 <div className='project-text'>

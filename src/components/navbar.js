@@ -1,6 +1,6 @@
-import { click } from '@testing-library/user-event/dist/click';
+
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+
 import "./navbar.css";
 import Headroom from 'react-headroom';
 function Navbar(){
