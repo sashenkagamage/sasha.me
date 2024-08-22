@@ -5,9 +5,12 @@ import './mainCon.css';
 import Footer from './Footer'; 
 
 function Home(){
+   
     return(
-        <>
-        < div id='aboutme'>
+        <> 
+      
+       
+        < section id='aboutme'>
         <div className='about-me_container'>
             <div className ='content'>
                 <div className='about-me'>
@@ -32,13 +35,13 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='/image-5.png' className='wrapper' alt=""/>
+                <img src='./sasha.me/image-5.png' className='wrapper' alt=""/>
                 </div>
                 
                  
             </div>
         </div>
-        </div>
+        </section>
         <div id='experiences'>
         <div className='education_container'>
             <div className ='content'>
@@ -98,7 +101,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='/image-7.png' className='wrapper' alt=""/>
+                <img src='./sasha.me/image-7.png' className='wrapper' alt=""/>
                 </div>
                 
                  
@@ -185,7 +188,9 @@ function Home(){
         </div>
        
         <Footer/>
+     
         </>
+        
     );
 }
 export default Home;

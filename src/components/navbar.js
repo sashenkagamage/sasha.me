@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react';
-
 import "./navbar.css";
+import { HashLink } from 'react-router-hash-link';
 import Headroom from 'react-headroom';
 function Navbar(){
     const [click, setClick] = useState(false);
@@ -12,38 +12,38 @@ function Navbar(){
     <Headroom>
     <nav className='navbar'>
         <div className='navbar-container'>
-                    <a href ='/#aboutme' className='navbar-logo' onClick={closeMobileMenu}>
+        <HashLink smooth to ='/#aboutme' className='navbar-logo' onClick={closeMobileMenu}>
                         Sasha
-                    </a>
+                    </HashLink>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div> 
             <ul className={click ? 'nav-menu active': 'nav-menu'}>
                 <li className='nav-item'>
-                    <a href = '/#aboutme' className='nav-links' onClick={closeMobileMenu}>
+                    <HashLink smooth to= '/#aboutme' className='nav-links' onClick={closeMobileMenu}>
                         About Me 
-                   </a>  
+                   </HashLink>  
                 </li>
               
                 <li className='nav-item'>
-                    <a href = '/#experiences' className='nav-links' onClick={closeMobileMenu}>
+                    <HashLink smooth to = '/#experiences' className='nav-links' onClick={closeMobileMenu}>
                        Experiences 
-                    </a>
+                    </HashLink>
                 </li>
                 <li className='nav-item'>
-                    <a href = '/#projects' className='nav-links' onClick={closeMobileMenu}>
+                    <HashLink smooth to = '/#projects' className='nav-links' onClick={closeMobileMenu}>
                         Projects
-                    </a>
+                    </HashLink>
                 </li>
                 <li className='nav-item '>
-                    <a href = '/#music' className='nav-links' onClick={closeMobileMenu}>
+                    <HashLink smooth to = '/#music' className='nav-links' onClick={closeMobileMenu}>
                         Music
-                    </a>
+                    </HashLink>
                 </li>
                 <li className='nav-item'>
-                    <a href = '/#awards' className='nav-links' onClick={closeMobileMenu}>
+                    <HashLink smooth to = '/#awards' className='nav-links' onClick={closeMobileMenu}>
                         Awards 
-                   </a>
+                   </HashLink>
                 </li>
                 
 
