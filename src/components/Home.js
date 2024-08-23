@@ -35,7 +35,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='./sasha.me/image-5.png' className='wrapper' alt=""/>
+                <img src='./images/image-5.png' className='wrapper' alt=""/>
                 </div>
                 
                  
@@ -101,7 +101,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='./public/image-7.png' className='wrapper' alt=""/>
+                <img src='./images/image-7.png' className='wrapper' alt=""/>
                 </div>
                 
                  

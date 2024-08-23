@@ -24,7 +24,7 @@
 .navbar-logo {
   color: #050505;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -38,7 +38,7 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  grid-gap: 5px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -54,8 +54,9 @@
   color: #fff;
   display: flex;
   align-items: center;
+  text-align: right;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   height: 100%;
   font-family: 'Courier New', Courier, monospace;
 }
