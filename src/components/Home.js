@@ -23,7 +23,7 @@ function Home(){
                 <div className='about-me-text'>
                     <p>
                Hi! I am Sashenka Gamage, a junior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>. I am currently working on 
-               autonomous navigation for Unmanned Aerial Vehicles and ROS (Robot Operating Systems). My interests rely on Robotics, UAVs, and IoT systems.
+               autonomous navigation for Unmanned Aerial Vehicles and developing algorithms using ROS (Robot Operating Systems). My interests rely on Robotics, UAVs, and IoT systems.
                If you are a robotics geek feel free to hit me up!
                </p>
                <p>
