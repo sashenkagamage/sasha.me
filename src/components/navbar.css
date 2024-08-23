@@ -33,10 +33,6 @@
   font-weight: 800;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-}
 
 .nav-menu {
   display: grid;
@@ -78,9 +74,15 @@
 
 .menu-icon {
   display: none;
+  stroke-width:0%;
+  border-width: 2px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 600px),
+only screen and (min-width: 600px),
+only screen and (min-width: 768px){
+  
+} 
   .NavbarItems {
     position: relative;
   }
@@ -89,7 +91,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 55vh;
+    height: 80vh;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -134,12 +136,18 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    
   }
 
   .fa-times {
     color: #fff;
-    font-size: 2rem;
-   
+    font-size: 1.8rem;
+    font-weight: bold;
+
+  }
+  .fa-bars {
+    color: #fff;
   }
 
-}
+
+ 

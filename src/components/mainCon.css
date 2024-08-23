@@ -25,7 +25,7 @@
 }
  .about-me-text p{
     color: rgb(0, 0, 0);
-    font-weight: 600;
+    font-weight: 400;
     font-size: large;
     font-family: Monaco, monospace;
     line-height: 25px;
@@ -297,14 +297,16 @@ p a {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 600px),
+only screen and (max-width: 600px),
+only screen and (min-width: 768px){
     .about-me {
         display: flex;
         flex-wrap: wrap;
         
     }
     .about-me_container{
-      min-height: 170vh;
+      height: 230vh;
     }
     .content{
       padding: 3.125rem 2.75rem 3rem;
