@@ -37,13 +37,13 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 5px;
   list-style: none;
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .nav-item {
@@ -81,6 +81,10 @@
 .menu-icon {
   display: none;
 
+}
+.fa-caret-down{
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 960px){
