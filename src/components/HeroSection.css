@@ -29,7 +29,7 @@ video{
     font-size: 32px;
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(to right, hsl(221, 47%, 52%) 0, hsl(207, 78%, 67%) 10%, hsl(223, 87%, 79%) 20%);
-    -webkit-background-clip: text;
+   
     -webkit-text-fill-color: transparent;
     animation: shine 5s infinite linear;
     cursor: pointer;

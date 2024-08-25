@@ -1,4 +1,4 @@
-.project {
+.escapades{
     display: grid;
     justify-content: space-between;
     align-items: center;
@@ -6,11 +6,8 @@
     transition-delay: 1s;
   
 }
-.content .project{
+.content .escapades{
     grid-template-columns: 60% 40%;
-}
-.content2 .project{
-    grid-template-columns: 30% 70%;
 }
 .content .wrapper{
     width: 100%;
@@ -20,23 +17,26 @@
     width: 100%;
     padding-bottom: 1.25rem;
 }
- .project-text{
-    color: white;
+ .escapades-text p{
+    color: rgb(255, 255, 255);
     font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Monaco, monospace;
     line-height: 25px;
+    padding-top: 10px;
  }
- .container h1{
+ .head-1 h1{
   color: white;
   padding-bottom: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   text-align: left;
  }
-
+.escapades img{
+    padding: 30px;
+}
   
  .container {
     /*background: url('/public/image-4.png') center center/cover no-repeat; */
-    height: 90vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,13 +44,58 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    background-color: black;
+
   }
-  .content2{
-    padding-left: 60px;
-    padding-right: 60px;
+.container-img{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width: 960px) {
+    .container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+    .container{
+      height: 100%;
+
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    .container > h1 {
+      font-size: 50px;
+      margin-top: -150px;
+    }
+ 
+ 
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .escapades {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .container{
+      height: 100%;
+    }
+    .content{
+      padding: 3.125rem 2.75rem 3rem;
   }
 
-  .content2 .project-text{
-    text-align: left;
-  }
-  
+    .content .escapades{
+        flex-wrap: wrap-reverse;
+        
+
+    }
+   .escapades img.wrapper{
+    max-width: 100%;
+   
+   }
+    
+}

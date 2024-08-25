@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Headroom from 'react-headroom';
 import Dropdown from './Dropdown';
+
+
 function Navbar(){
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -32,7 +34,7 @@ function Navbar(){
     <nav className='navbar'>
         <div className='navbar-container'>
         <HashLink smooth to ='/#aboutme' className='navbar-logo' onClick={closeMobileMenu}>
-                        Sasha
+                       Hi! It's me
                     </HashLink>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
