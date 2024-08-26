@@ -34,7 +34,7 @@ function Navbar(){
     <nav className='navbar'>
         <div className='navbar-container'>
         <HashLink smooth to ='/#aboutme' className='navbar-logo' onClick={closeMobileMenu}>
-                       Hi! It's me
+                    It's me
                     </HashLink>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -68,7 +68,7 @@ function Navbar(){
                 </li>
                 <li className='nav-item' onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}>
-                    <Link to = '/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to = '/Escapades1' className='nav-links' onClick={closeMobileMenu}>
                     Escapades <i className='fas fa-caret-down' />
                    </Link>
                     {dropdown && <Dropdown/>}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './project.css'
 import Footer from '../Footer'
+import CardsCmb from './CardsCmb';
 function Escapades1(){
     return(
         <>
@@ -14,7 +15,7 @@ function Escapades1(){
                     It was such a refreshing change from the hustle and bustle of university life in Hong Kong. </p>
                 <p>Walking down the Orchard, picking rusty red apples, celebrating at Social Hub with a mint choc frappe, 
                     and punting on the river cam while humming country songs – things that you would imagine to happen in an old English film.</p>
-                <p>Before cycling downtown, I had to complete three modules including Quantum Technologies, Jet Engines, and Nanotechnology.  
+                <p>I had to complete three modules including Quantum Technologies, Jet Engines, and Nanotechnology.  
                     The classes started with Jet Engines, taught by Dr Teng Cao, a lecturer at Imperial College of London. </p>
                 <p>Also, got a chance to see the Whittle Lab, the birthplace of modern jet engines, and moved to Nanotechnology which was taught by Professor Hannah Joyce. </p>
                 <p>The last adventure was Quantum Technologies with Professor Christopher Ford. He helped us navigate the mysteries of quantum mechanics, shedding light on the differences between quantum and classical theories. 
@@ -26,9 +27,9 @@ function Escapades1(){
                 </div>
         </div>
         </div>
-        <div className='container-img'>
-          
-        </div>
+     
+            <CardsCmb/>
+         
         <Footer/>
         </>
     )
