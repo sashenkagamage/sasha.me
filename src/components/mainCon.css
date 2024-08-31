@@ -45,7 +45,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+    background-color: rgb(243, 238, 232);
     object-fit: contain;
   
   }
@@ -143,9 +144,9 @@ p a {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
     object-fit: contain;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 238, 232);
   }
   
   .awards_container h1{
