@@ -35,7 +35,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='./image-5.png' className='wrapper' alt=""/>
+                <img src='./img-abut-me.png' className='wrapper' alt=""/>
                 </div>
                 
                  

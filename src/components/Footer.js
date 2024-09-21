@@ -59,7 +59,7 @@ function Footer() {
        
         </section>
         <section className='social-media'>
-        <small class='website-rights'>Made by Sashenka Gamage © 2023</small>
+        <small class='website-rights'>Made by Sashenka Gamage using React.js © 2023</small>
         </section>
         
         </div>
