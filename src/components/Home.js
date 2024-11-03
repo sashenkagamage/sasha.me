@@ -18,7 +18,7 @@ function Home(){
                 <div>
                 <h1>About me</h1>
                 <div className="location">
-                    <p>🏝️ Sri Lankan |📍Hong Kong  </p>
+                    <p> A Sri Lankan in Hong Kong</p>
                 </div>
                 <div className='about-me-text'>
                     <p>
@@ -33,6 +33,7 @@ function Home(){
                 With all my passions, my main intention is to share and use my knowledge and experiences for the betterment of humankind
                 </p>
                 </div>
+               
                 </div>
                 
                 <img src='./img-abut-me.png' className='wrapper' alt=""/>

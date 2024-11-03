@@ -1,7 +1,7 @@
 
 .navbar {
-  /*background: linear-gradient(90deg, rgb(212, 205, 205) 0%, rgb(26, 23, 23) 100%);*/
-  background-color: rgb(215, 212, 209);
+  background: linear-gradient(90deg, rgb(157, 227, 240) 0%, rgb(88, 203, 235) 100%);
+  /*background-color: rgb(131, 209, 240);*/
   height: 80px;
   display: flex;
   justify-content: center;
@@ -10,7 +10,20 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  border-top: 1px solid #000; /* Border at the top */
+  border-bottom: 1px solid #000; /* Border at the bottom */
+  border-top-left-radius: 10px; /* Curved top-left corner */
+  border-top-right-radius: 10px; /* Curved top-right corner */
  
+}
+.navbar::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
 }
 
 .navbar-container {
@@ -28,10 +41,10 @@
   margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   display: flex;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:  Sans, sans-serif;
   font-weight: 800;
 }
 
@@ -67,7 +80,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid rgb(166, 170, 187);
+  border-bottom: 4px solid rgb(53, 64, 113);
   transition: all 0.2s ease-out;
 }
 
@@ -148,7 +161,7 @@
   }
 
  .fa-times {
-    color: #fff;
+    color: #000000;
     font-size: 1.8rem;
   }
  .fa-caret-down{

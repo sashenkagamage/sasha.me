@@ -6,6 +6,9 @@ function Cards() {
       <div> 
       <div className='cards'>
         <h1>Projects</h1>
+        <div className="location">
+         <a href='https://github.com/sashenkagamage'><p> Check my GitHub for more!</p></a>  
+                </div>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>

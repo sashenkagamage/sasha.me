@@ -29,7 +29,7 @@
     font-size: large;
     font-family: Monaco, monospace;
     line-height: 25px;
-    padding-top: 10px;
+    padding-top: 30px;
  }
  .about-me_container h1{
   color: rgb(0, 0, 0);
@@ -38,7 +38,7 @@
 
   
  .about-me_container {
-    background: url('/public/png-wall.png') center center/cover no-repeat; 
+    /*background: url('/public/png-wall.png') center center/cover no-repeat; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -51,17 +51,21 @@
   
   }
  
+  .location {
+    text-align: center;
+    padding-bottom: 5px;
+   
+  }
+  
   .location p {
-    background-color: #88baf0; 
-    padding: 5px; 
-    display: inline-block; 
-    border-radius: 5px; 
-    margin-bottom: 5px; 
-}
-.location{
-  text-align: center;
-  padding-bottom: 5px;
-}
+    background-color: #8cdceb;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #000; /* Increase border width to make it larger */
+    font-weight: bold;
+  }
 
 p a {
   text-decoration: none; 
@@ -85,7 +89,7 @@ p a {
   }
 
   .education_container h1{
-    color: rgb(255, 255, 255);
+    color: rgb(243, 238, 232);
     padding-bottom: 30px;
     
  }
@@ -127,7 +131,7 @@ p a {
 }
  h3 a {
   text-decoration: none; 
-  background-color: rgb(255, 239, 94); 
+  background-color: rgb(121, 242, 246); 
   color: black; 
   padding: 2px 5px; 
   border-radius: 5px;
@@ -201,7 +205,7 @@ p a {
     font-family: Monaco, monospace;
     line-height: 25px;
     font-weight: 450;
-    padding-top: 10px;
+    padding-top: 25px;
  }
  .music_container h1{
   color: white;
@@ -229,13 +233,13 @@ p a {
     object-fit: contain;
     background-color: black;
   }
-.location a{
-  background-color: #88baf0; 
+.location p a{
   padding: 2px; 
   display: inline-block; 
   border-radius: 5px; 
   margin-bottom: 5px; 
   font-weight: 800;
+  background-color:  #8cdceb;;
 
 }
 
