@@ -26,14 +26,17 @@ function Home(){
                autonomous navigation for Unmanned Aerial Vehicles and developing algorithms using ROS (Robot Operating Systems). My interests rely on Robotics, UAVs, and IoT systems.
                If you are a robotics geek feel free to hit me up!
                </p>
+               <p>I am taking an exchange semester to <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison, USA</a> for spring 2025. So if you are in UW Madison and interested in my research, I am more than happy to see you around!</p>
                <p>
-               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. My project "Wall-E from Ohm World" will be released 
-               soon, where my goal is to provide educational materials related to electronics and robotics projects for students in developing countries. </p>
+               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. I also took an intensive engineering summer program at the <a href="https://sashenka.me/#/Escapades1" target="_blank" rel="noreferrer"> Girton College, University of Cambridge.</a>
+              </p>
                 <p>I have a habit of trying out new methods, while improving myself and correcting my mistakes eagerly. 
                 With all my passions, my main intention is to share and use my knowledge and experiences for the betterment of humankind
                 </p>
+                <p> You can email me at: <div className='my-email'><a href="mailto:sashenka.gamage@connect.polyu.hk">sashenka.gamage@connect.polyu.hk</a> or <a href="mailto:sgamage@wisc.edu">sgamage@wisc.edu</a> </div>
+                </p>
                 </div>
-               
+                
                 </div>
                 
                 <img src='./img-abut-me.png' className='wrapper' alt=""/>
