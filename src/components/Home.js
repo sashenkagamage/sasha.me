@@ -30,9 +30,7 @@ function Home(){
                <p>
                I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. I also took an intensive engineering summer program at the <a href="https://sashenka.me/#/Escapades1" target="_blank" rel="noreferrer"> Girton College, University of Cambridge.</a>
               </p>
-                <p>I have a habit of trying out new methods, while improving myself and correcting my mistakes eagerly. 
-                With all my passions, my main intention is to share and use my knowledge and experiences for the betterment of humankind
-                </p>
+               
                 <p> You can email me at: <div className='my-email'><a href="mailto:sashenka.gamage@connect.polyu.hk">sashenka.gamage@connect.polyu.hk</a> or <a href="mailto:sgamage@wisc.edu">sgamage@wisc.edu</a> </div>
                 </p>
                 </div>
