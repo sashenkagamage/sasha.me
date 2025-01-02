@@ -28,7 +28,7 @@ function Home(){
                </p>
                <p>I am taking an exchange semester to <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison, USA</a> for spring 2025. So if you are in UW Madison and interested in my research, I am more than happy to see you around!</p>
                <p>
-               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. I also took an intensive engineering summer program at the <a href="https://sashenka.me/#/Escapades1" target="_blank" rel="noreferrer"> Girton College, University of Cambridge.</a>
+               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. 
               </p>
                
                 <p> You can email me at: <div className='my-email'><a href="mailto:sashenka.gamage@connect.polyu.hk">sashenka.gamage@connect.polyu.hk</a> or <a href="mailto:sgamage@wisc.edu">sgamage@wisc.edu</a> </div>
@@ -49,6 +49,13 @@ function Home(){
             <div className ='content'>
                 <h1>Experiences</h1>
                 <div className="education">
+                <ul className='education-text'><h1>Undergraduate Researcher</h1>
+                <h7>2023 - Present</h7>
+                <h3> <a href="https://www.polyu.edu.hk/gs/ug-research/uris/project-21-23/" target="_blank" rel="noreferrer">Graduate School of PolyU</a></h3>
+                <p className='education-text'>I am working as an undergraduate researcher in the Graduate School of PolyU, as part of the Undergraduate Research and Innovation Scheme. My research scope is Human-Robot Collaboration, 
+                    and I am analyzing how autonomous drones interact in a smart manufacturing field.  Currently, I am implementing autonomous navigation, stabilizing drone control, and natural language control. I have a keen interest in flying robots and navigation for flying robots.
+                    I am working under the supervision of Ir Dr PAI ZHENG, and you can visit to our lab <a href="https://www.raids.group/" target="_blank" rel="noreferrer">RAIDS</a></p>
+                </ul>
             <ul className='education-text'>
             <h1>Engineering Intern</h1>
                 <h7>Summer 2024</h7>
@@ -59,11 +66,7 @@ function Home(){
                     <li className='education-text'>Study different types of digital protection relays and propose solutions for improvement.</li>
                 </p>
                 </ul> 
-                <ul className='education-text'><h1>Undergraduate Researcher</h1>
-                <h7>2023 - Present</h7>
-                <h3> <a href="https://www.polyu.edu.hk/gs/ug-research/uris/project-21-23/" target="_blank" rel="noreferrer">Graduate School of PolyU</a></h3>
-                <p className='education-text'>I am working as an undergraduate researcher in the Graduate School of PolyU, as part of the Undergraduate Research and Innovation Scheme. My research scope is Human-Robot Collaboration, and I am analyzing how autonomous drones interact in a smart manufacturing field.  Currently, I am implementing autonomous navigation, stabilizing drone control, and natural language control</p>
-                </ul>
+               
                 <ul className='education-text'>
                 <h1>Student Assistant </h1>
                 <h7>2023-2024</h7>
@@ -79,6 +82,7 @@ function Home(){
             </div>
         </div>
         </div>
+      
         <div id='projects'>
         <Cards />
         </div>

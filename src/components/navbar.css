@@ -3,6 +3,7 @@
   background: linear-gradient(90deg, rgb(157, 227, 240) 0%, rgb(88, 203, 235) 100%);
   /*background-color: rgb(131, 209, 240);*/
   height: 80px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
