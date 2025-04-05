@@ -42,11 +42,7 @@ function Contact() {
                   <div className="contact-item about-me-section">
                     <div className="about-me-content">
                     <div className="about-me-image">
-<<<<<<< HEAD
-                        <img src="/linkedin_dp.jpg" alt="Sashenka Gamage" />
-=======
                         <img src="/linkedin-dp.png" alt="Sashenka Gamage" />
->>>>>>> 1b4fb77b58da50da743f9d1f5fe1ef50b4b5c1a5
                       </div>
                       <div className="about-me-text">
                       <h2>Hi, I'm Sashenka Gamage.</h2>
