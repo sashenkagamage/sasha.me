@@ -30,10 +30,15 @@ jobs:
       
     - name: Build
       run: npm run build
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+      
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+      
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        folder: build
-        branch: gh-pages
-        # No need to specify token here as we're using GITHUB_TOKEN with proper permissions
+        path: './build'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
