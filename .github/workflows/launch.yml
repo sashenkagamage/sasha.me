@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -30,4 +36,4 @@ jobs:
       with:
         folder: build
         branch: gh-pages
-        token: ${{ secrets.GITHUB_TOKEN }}
+        # No need to specify token here as we're using GITHUB_TOKEN with proper permissions
