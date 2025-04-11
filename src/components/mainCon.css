@@ -166,7 +166,59 @@ margin-left: 20px;
   border-radius: 5px;
 }
 
+.research {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px; /* Add spacing between rows for smaller screens */
+  transition-delay: 1s;
+  grid-template-columns: 1fr; /* Default to one column */
+}
 
+.content .research {
+  grid-template-columns: 60% 35%; /* Adjust proportions for better alignment */
+}
+
+.content .wrapper-1 {
+  width: 100%;
+  padding: 2rem 1rem; /* Reduce padding for smaller devices */
+}
+
+.research-text p {
+  color: rgb(252, 252, 252);
+  font-weight: 450;
+  font-size: 1rem; /* Use relative font sizes */
+  font-family: sans-serif;
+  line-height: 1.6; /* Improve readability */
+  margin: 0; /* Remove default margin to avoid overflow */
+  padding-top: 20px; /* Reduce padding for smaller devices */
+  word-wrap: break-word; /* Prevent text from overflowing */
+}
+   
+    
+    
+ 
+ .research_container h1{
+  color: rgb(239, 239, 239);
+  padding-bottom: 30px;
+ }
+
+  
+ .research_container {
+    /*background: url('/public/png-wall.png') center center/cover no-repeat; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+    background-color: rgb(88, 87, 87);
+    object-fit: contain;
+  
+  }
+ 
   
  
   .awards_container {
@@ -277,6 +329,10 @@ margin-left: 20px;
       font-size: 70px;
       margin-top: -150px;
     }
+    .research_container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
     .education_container > h1 {
       font-size: 70px;
       margin-top: 100px;
@@ -285,6 +341,11 @@ margin-left: 20px;
       font-weight: 400;
     }
     .about-me_container{
+      height: 100%;
+      width: 100%;
+    }
+
+    .research_container{
       height: 100%;
       width: 100%;
     }
@@ -323,6 +384,10 @@ margin-left: 20px;
       font-size: 50px;
       margin-top: -150px;
     }
+    .research_container > h1 {
+      font-size: 50px;
+      margin-top: -150px;
+    }
     .education_container > h1 {
       font-size: 50px;
       margin-top: 70px;
@@ -339,6 +404,10 @@ margin-left: 20px;
       height: 100%;
       width: 100%;
     }
+    .research_container{
+      height: 100%;
+      width: 100%;
+    }
     .content {
       padding: 1rem; /* Reduce padding on smaller screens */
   }
@@ -348,6 +417,9 @@ margin-left: 20px;
   .about-me-text p {
       font-size: 0.9rem; /* Adjust text size for smaller screens */
   }
+  .research {
+    grid-template-columns: 1fr; /* Stack items vertically */
+}
 }
 
  
@@ -360,7 +432,16 @@ margin-left: 20px;
         flex-wrap: wrap;
         
     }
+    .research {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
     .about-me_container{
+      height: 100%;
+      width: 100%;
+    }
+    .research_container{
       height: 100%;
       width: 100%;
     }

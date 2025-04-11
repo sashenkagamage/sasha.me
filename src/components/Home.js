@@ -86,6 +86,33 @@ function Home(){
         <div id='projects'>
         <Cards />
         </div>
+
+        <div className='research_container'>
+            <div className ='content'>
+                <div className='research'>
+                    
+                <div>
+                <h1>Conferences</h1>
+                
+                <div className='research-text'>
+                    <p>
+                    I had the opportunity to present my research at the <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">National Conference on Undergraduate Research</a> (NCUR) 2025, held in Pittsburgh, Pennsylvania. 
+                    The presentation title: "Enhancing Human-Robot Collaboration in Smart Manufacturing: Autonomous Drone Navigation with Natural Language Processing for Intuitive Control".
+
+               </p>
+   
+                </div>
+                
+                </div>
+                
+                <img src='./research-1.jpeg' className='wrapper-1' alt=""/>
+                </div>
+                
+                 
+            </div>
+        </div>
+
+
         <div id='music'>
         <div className='music_container'>
             <div className ='content'>
