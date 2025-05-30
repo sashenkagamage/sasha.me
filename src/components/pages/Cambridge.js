@@ -22,7 +22,7 @@ const CAMBRIDGE_CONTENT = {
     ]
 };
 
-function Escapades1(){
+function Cambridge() {
     const [imageLoaded, setImageLoaded] = React.useState(false);
     const [imageError, setImageError] = React.useState(false);
 
@@ -90,8 +90,8 @@ function Escapades1(){
     )
 }
 
-Escapades1.propTypes = {
+Cambridge.propTypes = {
     // Add props here if needed in the future
 };
 
-export default Escapades1;
+export default Cambridge;

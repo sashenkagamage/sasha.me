@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import "./navbar.css";
 import { Link, useLocation } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { Link as ScrollLink } from 'react-scroll';
 import Headroom from 'react-headroom';
 import Dropdown from './Dropdown';
 import useScrollSpy from '../hooks/useScrollSpy';
@@ -52,28 +52,21 @@ function Navbar() {
         setDropdown(false);
     }, []);
 
-    const scrollWithOffset = useCallback((el) => {
-        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-        const yOffset = -80; // Adjust this value based on your header height
-        window.scrollTo({ 
-            top: yCoordinate + yOffset, 
-            behavior: 'smooth'
-        });
-    }, []);
-
     return (
         <Headroom>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <HashLink 
-                        smooth 
-                        to='/#aboutme' 
+                    <ScrollLink 
+                        to='aboutme'
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        duration={500}
                         className='navbar-logo'
-                        scroll={scrollWithOffset}
                         onClick={closeMobileMenu}
                     >
                         It's me
-                    </HashLink>
+                    </ScrollLink>
                     
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -82,15 +75,27 @@ function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         {NAVIGATION_ITEMS.map(item => (
                             <li key={item.id} className='nav-item'>
-                                <HashLink 
-                                    smooth 
-                                    to={`/#${item.id}`}
-                                    className={`nav-links ${isHomePage && activeSection === item.id ? 'nav-links--active' : ''}`}
-                                    onClick={closeMobileMenu}
-                                    scroll={scrollWithOffset}
-                                >
-                                    {item.label}
-                                </HashLink>
+                                {isHomePage ? (
+                                    <ScrollLink 
+                                        to={item.id}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-80}
+                                        duration={500}
+                                        className={`nav-links ${isHomePage && activeSection === item.id ? 'nav-links--active' : ''}`}
+                                        onClick={closeMobileMenu}
+                                    >
+                                        {item.label}
+                                    </ScrollLink>
+                                ) : (
+                                    <Link 
+                                        to={`/#${item.id}`}
+                                        className='nav-links'
+                                        onClick={closeMobileMenu}
+                                    >
+                                        {item.label}
+                                    </Link>
+                                )}
                             </li>
                         ))}
                         

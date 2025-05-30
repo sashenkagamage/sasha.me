@@ -1,12 +1,12 @@
 export const MenuItems = [
     {
       title: 'Cambridge Chronicles 🎓',
-      path: '/Escapades1',
+      path: '/cambridge',
       cName: 'dropdown-link'
     },
     {
       title: 'Mad Badgers 🦡',
-      path: '/Escapades2',
+      path: '/madison',
       cName: 'dropdown-link'
     }
 ];

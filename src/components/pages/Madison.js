@@ -23,7 +23,7 @@ const MADISON_CONTENT = {
     ]
 };
 
-function Escapades2(){
+function Madison() {
     const [imageLoaded, setImageLoaded] = React.useState(false);
     const [imageError, setImageError] = React.useState(false);
 
@@ -90,8 +90,8 @@ function Escapades2(){
     )
 }
 
-Escapades2.propTypes = {
+Madison.propTypes = {
     // Add props here if needed in the future
 };
 
-export default Escapades2;
+export default Madison;
