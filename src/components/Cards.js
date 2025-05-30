@@ -15,7 +15,7 @@ function Cards() {
                <CardItem
                 src='./image-weeblebot.jpeg'
                 text='Weeblebot: Autonomous Navigation for Self-Balancing Robot using ROS2 and Nav2.'
-                path='/'
+                path='https://github.com/sashenkagamage/weeblebot'
               />
               <CardItem
                 src='./image-robotics.jpg'
