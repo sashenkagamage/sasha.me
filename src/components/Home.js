@@ -22,13 +22,12 @@ function Home(){
                 </div>
                 <div className='about-me-text'>
                     <p>
-               Hi! I am Sashenka Gamage, a junior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>. I am currently working on 
-               autonomous navigation for Unmanned Aerial Vehicles and developing algorithms using ROS (Robot Operating Systems). My interests rely on Robotics, UAVs, and IoT systems.
-               If you are a robotics geek feel free to hit me up!
+               Hi! I am Sashenka Gamage, a rising senior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>. My work centers on autonomous navigation for Unmanned Aerial Vehicles (UAVs), with a focus on developing algorithms using the Robot Operating System (ROS).
+               I’m passionate about Robotics, UAVs, and Navigation systems—so if you’re into any of those areas, feel free to reach out!
                </p>
-               <p>I am taking an exchange semester to <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison, USA</a> for spring 2025. So if you are in UW Madison and interested in my research, I am more than happy to see you around!</p>
+               <p>I recently completed an exchange semester at the <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison, USA</a> where I further explored my research interests and collaborated with peers in the robotics and embedded systems community.</p>
                <p>
-               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> who is aiming to work on reducing the gender disparity in STEM fields. 
+               I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> working on initiatives to reduce gender disparity in STEM and promote inclusion in tech.
               </p>
                
                 <p> You can email me at: <div className='my-email'><a href="mailto:sashenka.gamage@connect.polyu.hk">sashenka.gamage@connect.polyu.hk</a> or <a href="mailto:sgamage@wisc.edu">sgamage@wisc.edu</a> </div>
@@ -115,7 +114,7 @@ function Home(){
                             </h3>
                             <h7>Madison, Wisconsin</h7>
                             <p>
-                            I showcased my robotics research project focusing on autonomous navigation systems. The presentation, "Autonomous Navigation 
+                            My team and I showcased our robotics research project focusing on autonomous navigation systems. The presentation, "Autonomous Navigation 
                             for Self-Balancing Robots", demonstrated the implementation of ROS2 and Nav2 frameworks to achieve reliable autonomous 
                             navigation in a custom-built self-balancing robot with flat wheels. This work highlighted the integration of modern 
                             robotics frameworks with innovative mechanical design.

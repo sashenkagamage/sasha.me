@@ -14,12 +14,12 @@ function Cards() {
           <ul className='cards__items'>
                <CardItem
                 src='./image-weeblebot.jpeg'
-                text='Weeblebot: Autonomous Navigation for Self-Balancing Robot using ROS2 and Nav2'
+                text='Weeblebot: Autonomous Navigation for Self-Balancing Robot using ROS2 and Nav2.'
                 path='/'
               />
               <CardItem
                 src='./image-robotics.jpg'
-                text='Mobile Robot Control using PS5 Controller and using YOLOv11 for object detection'
+                text='Mobile Robot Control using PS5 Controller and using YOLOv11 for object detection.'
                 path='https://youtu.be/rHBzTDEv09U'
               />
             </ul>
@@ -27,12 +27,12 @@ function Cards() {
                <CardItem
                 src='./image-URIS.png'
                 text='Undergraduate Innovation and Research Scheme: Drone Control and Navigation Management in Smart 
-                Manufacturing'
+                Manufacturing.'
                 path = '/' //project1
               />
               <CardItem
                 src='./image-PCB.png'
-                text='PCB Designing Projects: LED Torch and Breadboard Power Supply, designed using KiCad 7.0'
+                text='PCB Designing Projects: LED Torch and Breadboard Power Supply, designed using KiCad 7.0.'
                 path = 'https://github.com/sashenkagamage/PCB_Projects' //project2
               />
             <CardItem
@@ -51,12 +51,12 @@ function Cards() {
               />
               <CardItem
                 src='./image-3.jpg'
-                text='CLP Generator Inspection Robot : Fabricate a robust inspection robot to examine the generator health without removing the rotor'
+                text='CLP Generator Inspection Robot : Fabricate a robust inspection robot to examine the generator health without removing the rotor.'
                 path = '/' //project2
               />
             <CardItem
                 src='./image-1.jpg'
-                text='Bera Tiles: Mobile Application includes Sri Lankan traditional drums'
+                text='Bera Tiles: Mobile Application includes Sri Lankan traditional drums.'
                 path = '/' //project3
               />
               
