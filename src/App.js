@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Project2 from './components/pages/project2';
 import Project3 from './components/pages/project3';
 import Escapades1 from './components/pages/Escapades1';
+import Escapades2 from './components/pages/Escapades2';
 import Contact from './components/pages/Contact';
 
 // Layout component for pages that include Navbar
@@ -26,6 +27,7 @@ function App() {
         {/* All other routes with navbar */}
         <Route path="/" element={<MainLayout><Home /></MainLayout>} />
         <Route path="/Escapades1" element={<MainLayout><Escapades1 /></MainLayout>} />
+        <Route path="/Escapades2" element={<MainLayout><Escapades2 /></MainLayout>} />
         <Route path="/project2" element={<MainLayout><Project2 /></MainLayout>} />
         <Route path="/project3" element={<MainLayout><Project3 /></MainLayout>} />
       </Routes>

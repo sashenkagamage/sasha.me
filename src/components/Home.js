@@ -73,7 +73,7 @@ function Home(){
                 <h3>Department of Electrical Engineering and Industrial Center </h3>
                 <p className='education-text'>As a Student Assistant at PolyU Industrial Center, I trained the MiR250 Robot to perform new tasks by mapping new pathways. 
                     I also worked in programming Universal Robot (UR) using Arduino to perform tasks such as stacking boxes. </p>
-                <p className='education-text'>The “CLP Generator Inspection Robot” is carried out by the Department of Electrical Engineering in collaboration with CLP Holdings. 
+                <p className='education-text'>The "CLP Generator Inspection Robot" is carried out by the Department of Electrical Engineering in collaboration with CLP Holdings. 
                     I am working under the Electronics and Circuit Designing group and my focus is on designing and debugging the control board and junction board of the robot.</p>
                 </ul>
             
@@ -88,27 +88,46 @@ function Home(){
         </div>
 
         <div className='research_container'>
-            <div className ='content'>
+            <div className='content'>
                 <div className='research'>
-                    
-                <div>
-                <h1>Conferences</h1>
-                
-                <div className='research-text'>
-                    <p>
-                    I had the opportunity to present my research at the <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">National Conference on Undergraduate Research</a> (NCUR) 2025, held in Pittsburgh, Pennsylvania. 
-                    The presentation title: "Enhancing Human-Robot Collaboration in Smart Manufacturing: Autonomous Drone Navigation with Natural Language Processing for Intuitive Control".
+                    <div>
+                        <h1>Conferences</h1>
+                        
+                        <div className='research-text'>
+                            <h3 className='conference-title'>
+                                <a href="https://ncur.secure-platform.com/2025/" target="_blank" rel="noreferrer">
+                                    National Conference on Undergraduate Research (NCUR) 2025
+                                </a>
+                            </h3>
+                            <h7>Pittsburgh, Pennsylvania</h7>
+                            <p>
+                            I presented my research on human-robot collaboration in smart manufacturing environments. My presentation, titled 
+                            "Enhancing Human-Robot Collaboration in Smart Manufacturing: Autonomous Drone Navigation with Natural Language Processing for Intuitive Control",
+                            focused on developing innovative approaches to drone control and automation in industrial settings.
+                            </p>
+                        </div>
 
-               </p>
-   
+                        <div className='research-text'>
+                            <h3 className='conference-title'>
+                                <a href="https://ugradsymposium.wisc.edu/" target="_blank" rel="noreferrer">
+                                    UW-Madison Undergraduate Symposium 2025
+                                </a>
+                            </h3>
+                            <h7>Madison, Wisconsin</h7>
+                            <p>
+                            I showcased my robotics research project focusing on autonomous navigation systems. The presentation, "Autonomous Navigation 
+                            for Self-Balancing Robots", demonstrated the implementation of ROS2 and Nav2 frameworks to achieve reliable autonomous 
+                            navigation in a custom-built self-balancing robot with flat wheels. This work highlighted the integration of modern 
+                            robotics frameworks with innovative mechanical design.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div className='conference-images'>
+                        <img src='./research-1.jpeg' className='wrapper-1' alt="NCUR Presentation"/>
+                        <img src='./symposium-1.jpeg' className='wrapper-1' alt="UW-Madison Symposium"/>
+                    </div>
                 </div>
-                
-                </div>
-                
-                <img src='./research-1.jpeg' className='wrapper-1' alt=""/>
-                </div>
-                
-                 
             </div>
         </div>
 

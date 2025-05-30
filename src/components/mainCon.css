@@ -169,20 +169,32 @@ margin-left: 20px;
 .research {
   display: grid;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  /* Center align grid items */
   column-gap: 30px;
-  row-gap: 20px; /* Add spacing between rows for smaller screens */
+  row-gap: 20px;
   transition-delay: 1s;
-  grid-template-columns: 1fr; /* Default to one column */
+  grid-template-columns: 1fr;
 }
 
 .content .research {
-  grid-template-columns: 60% 35%; /* Adjust proportions for better alignment */
+  grid-template-columns: 70% 30%;
+  align-items: center;  /* Center align grid items */
 }
 
 .content .wrapper-1 {
   width: 100%;
-  padding: 2rem 1rem; /* Reduce padding for smaller devices */
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.research-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-right: 30px;
 }
 
 .research-text p {
@@ -206,19 +218,22 @@ margin-left: 20px;
 
   
  .research_container {
-    /*background: url('/public/png-wall.png') center center/cover no-repeat; */
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
     background-color: rgb(88, 87, 87);
     object-fit: contain;
-  
-  }
- 
+}
+
+.research_container h1 {
+    color: rgb(239, 239, 239);
+    padding-bottom: 30px;
+    text-align: center;  /* Center the heading */
+}
+
   
  
   .awards_container {
@@ -475,4 +490,55 @@ margin-left: 20px;
 .about-me-text p{
   font-weight: 400;
 }
+}
+
+.conference-title {
+    color: #ffffff;  /* A professional blue color */
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+
+.conference-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;  /* Center the image container itself */
+}
+
+.conference-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Add styles for the conference text container */
+.research-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center vertically */
+    height: 100%;            /* Take full height */
+    margin-bottom: 2rem;     /* Add space between conference entries */
+}
+
+@media screen and (max-width: 768px) {
+    .conference-images {
+        margin-top: 2rem;
+    }
+}
+
+.conference-title a {
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(140, 220, 235, 0.1);  /* Light blue background, similar to your theme */
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.conference-title a:hover {
+    background-color: rgba(140, 220, 235, 0.2);  /* Slightly more visible on hover */
 }

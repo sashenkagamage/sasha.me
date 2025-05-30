@@ -11,6 +11,18 @@ function Cards() {
                 </div>
         <div className='cards__container'>
           <div className='cards__wrapper'>
+          <ul className='cards__items'>
+               <CardItem
+                src='./image-weeblebot.jpeg'
+                text='Weeblebot: Autonomous Navigation for Self-Balancing Robot using ROS2 and Nav2'
+                path='/'
+              />
+              <CardItem
+                src='./image-robotics.jpg'
+                text='Mobile Robot Control using PS5 Controller and using YOLOv11 for object detection'
+                path='https://youtu.be/rHBzTDEv09U'
+              />
+            </ul>
             <ul className='cards__items'>
                <CardItem
                 src='./image-URIS.png'
@@ -50,11 +62,7 @@ function Cards() {
               
               
             </ul>
-            <ul className='cards__items'>
-            
-              
-              
-            </ul>
+    
           </div>
         </div>
       </div>
