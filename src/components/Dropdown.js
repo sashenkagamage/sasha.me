@@ -3,7 +3,7 @@ import { MenuItems } from './MenuItems';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function Dropdown({ onClose }) {
+function Dropdown({ onClose, closeMobileMenu }) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
@@ -13,6 +13,8 @@ function Dropdown({ onClose }) {
   const handleLinkClick = () => {
     setClick(false);
     onClose && onClose();
+    // Close the main navbar menu and trigger scroll in mobile view
+    closeMobileMenu && closeMobileMenu();
   };
 
   return (

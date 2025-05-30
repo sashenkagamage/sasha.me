@@ -27,7 +27,18 @@ function Navbar() {
     );
 
     const handleClick = useCallback(() => setClick(prev => !prev), []);
-    const closeMobileMenu = useCallback(() => setClick(false), []);
+    
+    const closeMobileMenu = useCallback(() => {
+        setClick(false);
+        // Check if we're in mobile view
+        if (window.innerWidth < 960) {
+            // Scroll to top with smooth behavior
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    }, []);
     
     const onMouseEnter = useCallback(() => {
         if (window.innerWidth < 960) {
@@ -98,7 +109,7 @@ function Navbar() {
                             >
                                 Escapades <i className='fas fa-caret-down' />
                             </div>
-                            {dropdown && <Dropdown onClose={() => setDropdown(false)} />}
+                            {dropdown && <Dropdown onClose={() => setDropdown(false)} closeMobileMenu={closeMobileMenu} />}
                         </li>
                     </ul>
                 </div>
