@@ -11,17 +11,17 @@ function CardsMad() {
           <div className='cards__wrapper_cmb'>
             <ul className='cards__items_cmb'>
                <CardItemCmb
-                src='./images-mad1.JPEG'
+                src='./images-mad1.png'
                 text='Badger Game Day'
                 path='' 
               />
               <CardItemCmb
-                src='./images-mad2.JPEG'
+                src='./images-mad2.png'
                 text='With String Orchestra Conductors'
                 path='' 
               />
               <CardItemCmb
-                src='./images-mad3.JPEG'
+                src='./images-mad3.png'
                 text='Campus in Winter'
                 path='' 
               />
@@ -29,17 +29,17 @@ function CardsMad() {
             
             <ul className='cards__items_cmb'>
                <CardItemCmb
-                src='./images-mad4.JPEG'
+                src='./images-mad4.png'
                 text='Undergraduate Symposium'
                 path=''
               />
               <CardItemCmb
-                src='./images-mad5.JPEG'
+                src='./images-mad5.png'
                 text='Robotics Final Project'
                 path='' 
               />
               <CardItemCmb
-                src='./images-mad6.JPEG'
+                src='./images-mad6.png'
                 text='Lake Mendota at Night'
                 path=''
               />

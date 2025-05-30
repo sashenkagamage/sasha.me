@@ -73,7 +73,7 @@ function Escapades2(){
                             </div>
                         )}
                         <img
-                            src="/image-madison-main.jpeg"
+                            src="/image-madison-main.png"
                             className={`escapades__image ${imageLoaded ? 'escapades__image--loaded' : ''}`}
                             alt="University of Wisconsin-Madison campus view"
                             onLoad={handleImageLoad}
