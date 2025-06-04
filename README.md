@@ -1,6 +1,12 @@
 # Hi there, I'm Sashenka! 👋
 
-Welcome to my corner of GitHub! I'm a passionate **Robotics Engineer** who loves exploring the exciting intersection of **AI**, **Robotics**, and **Software Development**. With a solid foundation in **Python** and **C++**, I specialize in building intelligent systems that make the world a more connected and efficient place. Whether it's autonomous robots or cutting-edge machine learning models, I'm always excited to bring ideas to life!
+Welcome to my world of robots, algorithms, and endless possibilities! I'm a final year undergraduate student with a passion for creating autonomous robots that push the boundaries of what's possible. My journey in robotics began with a curiosity about how machines can interact with the world, and it has evolved into a quest to make them smarter, faster, and more autonomous.
+
+With a strong foundation in Python and C++, I dive deep into the world of Robot Operating Systems (ROS) and cutting-edge technologies to bring my projects to life. Whether it’s building autonomous robots, developing complex AI algorithms, or using computer vision for real-time decision-making, I’m all in for challenges that blend software with hardware.
+
+As I prepare for my Master's in Robotics, I'm eager to take on bigger projects and collaborate with others who share my excitement for creating the next generation of intelligent systems.
+
+Let's build something that moves, learns, and grows!
 
 ---
 
