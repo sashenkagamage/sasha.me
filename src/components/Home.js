@@ -39,7 +39,7 @@ function Home(){
                 
                 </div>
                 
-                <img src='./img1-about-me.png' className='wrapper' alt=""/>
+                <img src='./img1-about-me.png' className='wrapper' alt="Sashenka Gamage - Electronics Engineering Student at Hong Kong Polytechnic University specializing in robotics and UAV research"/>
                 </div>
                 
                  
@@ -57,7 +57,7 @@ function Home(){
                             <span className='experience-date'>2023 - Present</span>
                         </div>
                         <h3 className='experience-company'>
-                            <img src='./polyugradschool-img.png' className='company-logo' alt="Graduate School of PolyU Logo"/>
+                            <img src='./polyugradschool-img.png' className='company-logo' alt="Hong Kong Polytechnic University Graduate School logo - Sashenka Gamage Undergraduate Research"/>
                             <a href="https://www.polyu.edu.hk/gs/ug-research/uris/project-21-23/" target="_blank" rel="noreferrer">Graduate School of PolyU</a>
                         </h3>
                         <p className='experience-description'>
@@ -72,7 +72,7 @@ function Home(){
                             <span className='experience-date'>Summer 2025</span>
                         </div>
                         <h3 className='experience-company'>
-                            <img src='./lifesparrow-img.png' className='company-logo' alt="LifeSparrow Solutions Limited Logo"/>
+                            <img src='./lifesparrow-img.png' className='company-logo' alt="LifeSparrow Solutions Limited logo - Sashenka Gamage Drone AI Engineer position"/>
                             <a href="https://www.lifesparrow.com/" target="_blank" rel="noreferrer">LifeSparrow Solutions Limited</a>
                         </h3>
                         <p className='experience-description'>
@@ -85,7 +85,7 @@ function Home(){
                             <span className='experience-date'>Summer 2024</span>
                         </div>
                         <h3 className='experience-company'>
-                            <img src='./clp-img.png' className='company-logo' alt="CLP Power Hong Kong Logo"/>
+                            <img src='./clp-img.png' className='company-logo' alt="CLP Power Hong Kong logo - Sashenka Gamage Engineering Intern experience"/>
                             <a href="https://www.clp.com.hk/en/about-clp" target="_blank" rel="noreferrer">CLP Power Hong Kong</a>
                         </h3>
                         <p className='experience-description'>
@@ -106,7 +106,7 @@ function Home(){
                             <span className='experience-date'>2023-2024</span>
                         </div>
                         <h3 className='experience-company'>
-                            <img src='./hkpolyu-img.png' className='company-logo' alt="PolyU Logo"/>
+                            <img src='./hkpolyu-img.png' className='company-logo' alt="Hong Kong Polytechnic University logo - Sashenka Gamage Student Assistant experience"/>
                             Department of Electrical Engineering and Industrial Center
                         </h3>
                         <p className='experience-description'>
@@ -148,7 +148,7 @@ function Home(){
                             </p>
                         </div>
                         <div className='conference-image-container'>
-                            <img src='./research-1.jpeg' className='conference-img' alt="NCUR Presentation"/>
+                            <img src='./research-1.jpeg' className='conference-img' alt="Sashenka Gamage presenting Human-Robot Collaboration research at NCUR 2025 Pittsburgh"/>
                         </div>
                     </div>
 
@@ -170,7 +170,7 @@ function Home(){
                             </p>
                         </div>
                         <div className='conference-image-container'>
-                            <img src='./symposium-1.jpeg' className='conference-img' alt="UW-Madison Symposium"/>
+                            <img src='./symposium-1.jpeg' className='conference-img' alt="Sashenka Gamage presenting Autonomous Navigation for Self-Balancing Robots at UW-Madison Undergraduate Symposium 2025"/>
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@ function Home(){
                 </div>
                 </div>
                 
-                <img src='./image-7.png' className='wrapper' alt=""/>
+                <img src='./image-7.png' className='wrapper' alt="Sashenka Gamage playing violin - UN Millennium Fellow and musician with PolyU Orchestra"/>
                 </div>
                 
                  
