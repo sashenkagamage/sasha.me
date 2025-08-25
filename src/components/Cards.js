@@ -26,8 +26,7 @@ function Cards() {
             <ul className='cards__items'>
                <CardItem
                 src='./image-URIS.png'
-                text='Undergraduate Innovation and Research Scheme: Drone Control and Navigation Management in Smart 
-                Manufacturing.'
+                text='Undergraduate Innovation and Research Scheme: Drone Control and Navigation Management in Smart Manufacturing.'
                 path = '/' //project1
               />
               <CardItem
