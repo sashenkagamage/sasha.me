@@ -26,6 +26,7 @@ function Home(){
                I’m passionate about Robotics, UAVs, and Navigation systems—so if you’re into any of those areas, feel free to reach out!
                </p>
                <p>I recently completed an exchange semester at the <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison, USA</a> where I further explored my research interests and collaborated with peers in the robotics and embedded systems community.</p>
+               <p>I also participated in an intensive summer program at the <a href="https://www.cam.ac.uk/" target="_blank" rel="noreferrer">University of Cambridge, UK</a>, where I engaged with cutting-edge research methodologies and expanded my understanding of advanced engineering principles in an internationally renowned academic environment.</p>
                <p>
                I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> working on initiatives to reduce gender disparity in STEM and promote inclusion in tech.
               </p>
@@ -39,7 +40,57 @@ function Home(){
                 
                 </div>
                 
-                <img src='./img1-about-me.png' className='wrapper' alt="Sashenka Gamage - Electronics Engineering Student at Hong Kong Polytechnic University specializing in robotics and UAV research"/>
+                <div className='wrapper-container'>
+                    <img src='./img1-about-me.png' className='wrapper' alt="Sashenka Gamage - Electronics Engineering Student at Hong Kong Polytechnic University specializing in robotics and UAV research"/>
+                    
+                    <div className='about-me-social-icons'>
+                        <a
+                            className='social-icon-link github'
+                            href='https://github.com/sashenkagamage'
+                            target='_blank'
+                            rel='noreferrer'
+                            aria-label='GitHub'
+                        >
+                            <i className='fab fa-github fa-2x' style={{color: '#333'}} />
+                        </a>
+                        <a
+                            className='social-icon-link medium'
+                            href='https://medium.com/@sashenka.gamage'
+                            target='_blank'
+                            rel='noreferrer'
+                            aria-label='Medium'
+                        >
+                            <i className='fab fa-medium fa-2x' style={{color: '#000000'}} />
+                        </a>
+                        <a
+                            className='social-icon-link instagram'
+                            href='https://www.instagram.com/sash__2001/?igshid=NTc4MTIwNjQ2YQ%3D%3D#'
+                            target='_blank'
+                            rel='noreferrer'
+                            aria-label='Instagram'
+                        >
+                            <i className='fab fa-instagram fa-2x' style={{color: '#E4405F'}} />
+                        </a>
+                        <a
+                            className='social-icon-link x-twitter'
+                            href='https://twitter.com/sash__2001'
+                            target='_blank'
+                            rel='noreferrer'
+                            aria-label='X (formerly Twitter)'
+                        >
+                            <i className='fab fa-twitter fa-2x' style={{color: '#000000'}} />
+                        </a>
+                        <a
+                            className='social-icon-link linkedin'
+                            href='https://www.linkedin.com/in/sashenka-gamage-2001/'
+                            target='_blank'
+                            rel='noreferrer'
+                            aria-label='LinkedIn'
+                        >
+                            <i className='fab fa-linkedin fa-2x' style={{color: '#0077B5'}} />
+                        </a>
+                    </div>
+                </div>
                 </div>
                 
                  
@@ -191,6 +242,7 @@ function Home(){
                <p className='music-text'>I started playing violin when I was twelve years old, under the guidance of renowned musician Mr. Diliup Gabadamudalige. </p>
                 <p>In 2016, I joined <a href="https://en.wikipedia.org/wiki/Symphony_Orchestra_of_Sri_Lanka" target="_blank" rel="noreferrer">the Junior Symphony Orchestra of Sri Lanka</a> and played several concerts in collaboration with the Symphony Orchestra of Sri Lanka under Mrs. Dushyanthi Perera. I was also a violinist in my school, Visakha Vidyalaya orchestra, from 2015 to 2020. Currently, I am learning music under famous violinist and musician Mr. Ananda Dabare. </p>
                <p className='music-text'>In 2022, I joined PolyU Orchestra, conducted by <a href="http://www.leungkinfung.com/bio.php" target="_blank" rel="noreferrer">Mr. Kin Fung Leung</a>, a world-class musician awarded outstanding recognition around the globe. So far, I have played in three major concerts, including Beethoven's Symphony No. 9 and the "I Love HK" concert. I am looking forward to playing with renowned soloists and musicians at PolyU Orchestra. </p>
+                <p className='music-text'>During my exchange semester at the <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer">University of Wisconsin-Madison</a>, I had the privilege of playing with the UW-Madison String Orchestra, further expanding my musical experience and collaborating with talented musicians from diverse backgrounds in an American academic setting.</p>
                 <p>My favourite orchestra repertoire includes 
                 Beethoven Symphony No 9,
                 Mozart Requiem,
@@ -215,7 +267,7 @@ function Home(){
                 <ul className='awards-text'>
                 <h3> Winner HKEAS Global Grand Challengers Pitch Competition 2024</h3>
                 <h7>2024</h7>
-                <p className='awards-text'>My Team will be representing Hong Kong and China for Global Grand Challenges held in the United States of America.</p>
+                
                 </ul> 
                 <ul className='awards-text'>
                 <h3> CLP Scholarship</h3>
@@ -249,7 +301,7 @@ function Home(){
                 <ul className='awards-text'>
                 <h3> Hong Kong Techathon 2024 Merit Award (Open Group)</h3>
                 <h7>2024</h7>
-                <p className='awards-text'>FinTrust won the Merit Award in Hong Kong Techathon 2024 under the category of Digital Economy.</p>
+                <p className='awards-text'>Won the Merit Award in Hong Kong Techathon 2024 under the category of Digital Economy.</p>
                 </ul>
                 <ul className='awards-text'>
                 <h3> Dr Winnie S M Tang-PolyU Student Innovation & Entrepreneurship Scholarship</h3>

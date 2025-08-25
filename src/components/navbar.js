@@ -56,17 +56,7 @@ function Navbar() {
         <Headroom>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <ScrollLink 
-                        to='aboutme'
-                        spy={true}
-                        smooth={true}
-                        offset={-80}
-                        duration={500}
-                        className='navbar-logo'
-                        onClick={closeMobileMenu}
-                    >
-                        It's me
-                    </ScrollLink>
+     
                     
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

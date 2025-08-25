@@ -35,11 +35,7 @@ function Cards() {
                 text='PCB Designing Projects: LED Torch and Breadboard Power Supply, designed using KiCad 7.0.'
                 path = 'https://github.com/sashenkagamage/PCB_Projects' //project2
               />
-            <CardItem
-                src='./image-Fintrust.png'
-                text='FinTrust: API Service to protect your money in real-time from fraudsters using AI and ML algorithms.'
-                path = 'https://fintrusthk.netlify.app/home' //project3
-              />
+
               
               
             </ul>
