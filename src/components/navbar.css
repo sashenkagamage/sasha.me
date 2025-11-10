@@ -8,12 +8,12 @@
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top: 0;
+  top: 56px;
   z-index: 999;
   border-top: 1px solid #000; /* Border at the top */
   border-bottom: 1px solid #000; /* Border at the bottom */
-  border-top-left-radius: 10px; /* Curved top-left corner */
-  border-top-right-radius: 10px; /* Curved top-right corner */
+  /*border-top-left-radius: 10px; /* Curved top-left corner */
+  /*border-top-right-radius: 10px; /* Curved top-right corner */
  
 }
 .navbar::after {

@@ -8,8 +8,6 @@ function Home(){
    
     return(
         <> 
-      
-       
         < section id='aboutme'>
         <div className='about-me_container'>
             <div className ='content'>
@@ -30,9 +28,7 @@ function Home(){
                <p>
                I am also a <a href="https://www.millenniumfellows.org/class-of-2024-fellows" target="_blank" rel="noreferrer">UN Millennium Fellow</a> working on initiatives to reduce gender disparity in STEM and promote inclusion in tech.
               </p>
-              <p>
-               Looking ahead, I am planning to pursue graduate studies in Robotics and Control Systems, where I aim to deepen my expertise in autonomous navigation and advance the field of human-robot collaboration.
-              </p>
+          
                
                 <p> You can email me at: <div className='my-email'><a href="mailto:sashenka.gamage@connect.polyu.hk">sashenka.gamage@connect.polyu.hk</a> or <a href="mailto:sgamage@wisc.edu">sgamage@wisc.edu</a> </div>
                 </p>
@@ -127,7 +123,7 @@ function Home(){
                             <a href="https://www.lifesparrow.com/" target="_blank" rel="noreferrer">LifeSparrow Solutions Limited</a>
                         </h3>
                         <p className='experience-description'>
-                            I will be engineering Python-based AI models for analyzing and processing drone imagery, implementing path planning on 3D maps in SparAI to navigate commercial drones, developing a web application for visualizing and analyzing drone data, and optimizing the performance of the AI models and the web application.
+                            Developed and implemented autonomous drone navigation systems for commercial applications. Key contributions include implementing path planning algorithms using A-Star on Cesium 3D maps for the SparAI platform, integrating Gemini Pro for natural language processing to generate waypoints from user text commands, and enhancing the DJI-Cloud-API software to support LifeSparrow drone models. Deployed the API using Docker on Huawei Cloud infrastructure, enabling real-time video streaming via Agora. Additionally, developed Python-based AI models for drone imagery analysis and created web applications for data visualization and analytics.
                         </p>
                     </div>
                     <div className='experience-card'>
@@ -182,6 +178,25 @@ function Home(){
             <div className='content'>
                 <h1>Conferences</h1>
                 <div className='conferences-container'>
+                    <div className='conference-row'>
+                        <div className='conference-card'>
+                            <div className='conference-header'>
+                                <h2 className='conference-title'>
+                                    <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noreferrer">
+                                        7th International Conference on Robotics, Control and Vision (ICRCV 2025)
+                                    </a>
+                                </h2>
+                                <span className='conference-location'>To be published in IEEE Xplore</span>
+                            </div>
+                            <p className='conference-description'>
+                                My first author paper, "Autonomous Drone Navigation with Natural Language Processing for Human-Centric Smart Manufacturing," was accepted and presented at the 7th International Conference on Robotics, Control and Vision (ICRCV 2025). The research introduced LUNASM, an NLP-driven UAV navigation framework integrating path planning, obstacle avoidance, and natural language command execution within ROS and Gazebo.
+                            </p>
+                        </div>
+                        <div className='conference-image-container'>
+                            <img src='./ICRCV-pic.jpg' className='conference-img' alt="International Conference on Robotics and Computer Vision presentation"/>
+                        </div>
+                    </div>
+
                     <div className='conference-row'>
                         <div className='conference-card'>
                             <div className='conference-header'>

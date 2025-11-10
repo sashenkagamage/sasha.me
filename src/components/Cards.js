@@ -25,6 +25,18 @@ function Cards() {
             </ul>
             <ul className='cards__items'>
                <CardItem
+                src='./canopix-img.jpg'
+                text='Canopix AI: Intelligent UAV System for Vegetation Detection using GNSS-R.'
+                path = '/'
+              />
+              <CardItem
+                src='./robocon-img.png'
+                text='Robocon HK: Autonomous Robot for Stair Climbing and Object Detection.'
+                path = '/'
+              />
+            </ul>
+            <ul className='cards__items'>
+               <CardItem
                 src='./image-URIS.png'
                 text='Undergraduate Innovation and Research Scheme: Drone Control and Navigation Management in Smart Manufacturing.'
                 path = '/' //project1
