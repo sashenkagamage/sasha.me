@@ -59,13 +59,13 @@ function Home(){
                             <i className='fab fa-medium fa-2x' style={{color: '#000000'}} />
                         </a>
                         <a
-                            className='social-icon-link instagram'
-                            href='https://www.instagram.com/sash__2001/?igshid=NTc4MTIwNjQ2YQ%3D%3D#'
+                            className='social-icon-link google-scholar'
+                            href='https://scholar.google.com/citations?user=JZ35eV8AAAAJ&hl=en'
                             target='_blank'
                             rel='noreferrer'
-                            aria-label='Instagram'
+                            aria-label='Google Scholar'
                         >
-                            <i className='fab fa-instagram fa-2x' style={{color: '#E4405F'}} />
+                            <i className='fas fa-graduation-cap fa-2x' style={{color: '#4285F4'}} />
                         </a>
                         <a
                             className='social-icon-link x-twitter'
@@ -182,11 +182,11 @@ function Home(){
                         <div className='conference-card'>
                             <div className='conference-header'>
                                 <h2 className='conference-title'>
-                                    <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noreferrer">
-                                        7th International Conference on Robotics, Control and Vision (ICRCV 2025)
+                                    <a href="https://ieeexplore.ieee.org/document/11349154" target="_blank" rel="noreferrer">
+                                    Autonomous Drone Navigation with Natural Language Processing for Human-Centric Smart Manufacturing
                                     </a>
                                 </h2>
-                                <span className='conference-location'>To be published in IEEE Xplore</span>
+                                <span className='conference-location'>Published in IEEE Xplore</span>
                             </div>
                             <p className='conference-description'>
                                 My first author paper, "Autonomous Drone Navigation with Natural Language Processing for Human-Centric Smart Manufacturing," was accepted and presented at the 7th International Conference on Robotics, Control and Vision (ICRCV 2025). The research introduced LUNASM, an NLP-driven UAV navigation framework integrating path planning, obstacle avoidance, and natural language command execution within ROS and Gazebo.
@@ -194,6 +194,41 @@ function Home(){
                         </div>
                         <div className='conference-image-container'>
                             <img src='./ICRCV-pic.jpg' className='conference-img' alt="International Conference on Robotics and Computer Vision presentation"/>
+                        </div>
+                    </div>
+
+                    <div className='conference-row'>
+                        <div className='conference-card'>
+                            <div className='conference-header'>
+                                <h2 className='conference-title'>
+                                    <a href="https://arxiv.org/abs/2601.10775" target="_blank" rel="noreferrer">
+                                        LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning
+                                    </a>
+                                </h2>
+                                <span className='conference-location'>AAAI 2026 Bridge Workshop</span>
+                            </div>
+                            <p className='conference-description'>
+                                Co-authored paper with Tommaso Felice Banfi, accepted at AAAI 2026 Bridge (Logical and Symbolic Reasoning in Language Models). This research proposes a novel LLM-based framework for reasoning in discrete, game-theoretic tasks, integrating in-context learning with entropy-guided chain-of-thought reasoning and adaptive context retrieval. The method dynamically adjusts reasoning paths according to token-level uncertainty, demonstrating significant improvement in sequential decision-making environments.
+                            </p>
+                        </div>
+                        <div className='conference-image-container'>
+                            <img src='./AAAI2026.jpeg' className='conference-img' alt="AAAI 2026 Bridge Workshop presentation"/>
+                        </div>
+                    </div>
+
+                    <div className='conference-row' style={{display: 'block', width: '100%'}}>
+                        <div className='conference-card' style={{width: '100%', maxWidth: '100%'}}>
+                            <div className='conference-header'>
+                                <h2 className='conference-title'>
+                                    <a href="https://arxiv.org/abs/2512.01234" target="_blank" rel="noreferrer">
+                                        Proactive Agentic Whiteboards: Enhancing Diagrammatic Learning
+                                    </a>
+                                </h2>
+                                <span className='conference-location'>arXiv Preprint</span>
+                            </div>
+                            <p className='conference-description'>
+                                Co-authored paper with Suveen Ellawela and Dinithi Dissanayake. This work introduces DrawDash, an AI-powered whiteboard assistant that proactively completes and refines educational diagrams through multimodal understanding. The system adopts a TAB-completion interaction model, listening to spoken explanations, detecting intent, and dynamically suggesting refinements that can be accepted with a single keystroke. This research explores reducing instructors' cognitive load and improving diagram-based pedagogy through real-time, speech-driven visual assistance.
+                            </p>
                         </div>
                     </div>
 
