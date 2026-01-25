@@ -15,9 +15,6 @@ function Home(){
                     
                 <div>
                 <h1>About me</h1>
-                <div className="location">
-                    <p> A Sri Lankan in Hong Kong</p>
-                </div>
                 <div className='about-me-text'>
                     <p>
                Hi! I am Sashenka Gamage, a rising senior studying Electronics Engineering at <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>. My work centers on autonomous navigation for Unmanned Aerial Vehicles (UAVs), with a focus on developing algorithms using the Robot Operating System (ROS).
