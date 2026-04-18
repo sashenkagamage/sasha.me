@@ -13,16 +13,6 @@ import Contact from './components/pages/Contact';
 // Layout component for pages that include Navbar
 const MainLayout = ({ children }) => (
   <>
-    {/* PhD Position Notification Banner */}
-    <div className='phd-notification-banner'>
-      <div className='phd-notification-content'>
-        <span className='phd-notification-text'>
-        <span className='phd-notification-icon'>🎓</span>
-          <strong> Seeking PhD Opportunities</strong> - I am actively looking for PhD positions in Robotics, Autonomous Systems, and UAV Navigation starting Fall 2026. 
-          <a href="mailto:sashenka.gamage@connect.polyu.hk" className='phd-contact-link'>Get in touch</a>
-        </span>
-      </div>
-    </div>
     <Navbar />
     {children}
   </>
