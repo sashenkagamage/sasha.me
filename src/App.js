@@ -13,6 +13,17 @@ import Contact from './components/pages/Contact';
 // Layout component for pages that include Navbar
 const MainLayout = ({ children }) => (
   <>
+    <div className='phd-notification-banner'>
+      <div className='phd-notification-content'>
+        <span className='phd-notification-text'>
+          <span className='phd-notification-icon'>🔬</span>
+          <strong> Check out my research portfolio</strong> @
+          <a href="https://sashenkagamage.github.io/" className='phd-contact-link' target="_blank" rel="noreferrer">
+            sashenkagamage.github.io
+          </a>
+        </span>
+      </div>
+    </div>
     <Navbar />
     {children}
   </>
